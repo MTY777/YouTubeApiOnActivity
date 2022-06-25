@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonStyle">
+        <item name="android:fillColor">@color/white</item>
+        <item name="android:backgroundTint">#FF0000</item>
+        <item name="color">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:tint">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">@dimen/six_teen_sp</item>
+    </style>
+    <style name="TextTitle" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/fjallla_font</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="LittleInfo" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">@dimen/two_teen_sp</item>
+    </style>
+</resources>
